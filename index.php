@@ -1,7 +1,4 @@
 <?php
-/* Debug */
-//exit($F);
-//Software ver:V2.1.3.202007231349
 error_reporting(0);
 $F = '/' . $_GET['F'];
 if ($F == '/Submit/') {
