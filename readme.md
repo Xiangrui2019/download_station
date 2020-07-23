@@ -19,8 +19,6 @@ Passwd.Info
 About.Info
 此文件为关于页面介绍，您可以自行修改
 
-## 如何运行
-xxxxx
 
 ## 如何贡献
 There are many ways to contribute to the project: logging bugs, submitting pull requests, reporting issues, and creating suggestions.
