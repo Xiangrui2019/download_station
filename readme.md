@@ -20,7 +20,11 @@ About.Info
 此文件为关于页面介绍，您可以自行修改
 
 ## 如何运行
-xxxxx
+### 开发环境
+请在电脑上安装PhpStudy/WAMP/XAMPP等集成环境, 并且创建一个虚拟主机, 使用/etc/hosts文件配置好虚拟主机的域名. 把本站源码复制到那个目录下面, 启动nginx/apache和php, 访问对应的虚拟主机就行了.
+
+### 生产环境
+请准备一台VPS, 安装宝塔面板，使用FTP上传本站源码, 然后配置域名解析, OK!
 
 ## 如何贡献
 There are many ways to contribute to the project: logging bugs, submitting pull requests, reporting issues, and creating suggestions.
