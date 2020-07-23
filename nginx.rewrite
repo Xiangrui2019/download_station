@@ -1,0 +1,10 @@
+#直接Apache规则转换，如果不能用请联系作者
+
+# Warning: unknown at line 1:
+#  <IfModule mod_rewrite.c>
+rewrite ^/(.*)/\Info$ index.php?F=$1&Page=1 last;
+if (!-f $request_filename && !-d $request_filename) {
+    rewrite ^/(.*)$ index.php?F=$1 last;
+}
+# Warning: unknown at line 7:
+#  </IfModule>
