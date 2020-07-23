@@ -131,4 +131,3 @@ function GetRandStr($length){
 	}
 	return $randstr;
 }
-?>
